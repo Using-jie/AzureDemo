@@ -2,7 +2,15 @@ package io.github.azuredemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+<<<<<<< HEAD
 
+=======
+import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@EnableFeignClients
+@EnableCaching
+>>>>>>> dev
 @SpringBootApplication
 public class AzuredemoApplication {
 

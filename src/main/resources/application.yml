@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+redirect_uri: http://localhost:8080/api/OneDrive
+
+spring:
+  redis:
+    host: 162.14.83.216
+    password: 123456
+    port: 6379
